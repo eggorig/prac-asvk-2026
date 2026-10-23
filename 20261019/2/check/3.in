@@ -1,0 +1,5 @@
+:add x y x+y
+:sum4 a b c d a+b+c+d
+add 3 4
+sum4 1 2 3 4
+quit "{};{}"

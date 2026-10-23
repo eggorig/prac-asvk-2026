@@ -1,0 +1,5 @@
+:zero 42
+zero
+:inc x x+1
+inc 5
+quit "{}:{}"
