@@ -1,0 +1,12 @@
+a = Triangle((0, 0), (4, 0), (0, 4))
+b = Triangle((0, 4), (4, 0), (0, 0))
+c = Triangle((2, 2), (6, 2), (2, 6))
+d = Triangle((7, 7), (9, 7), (7, 9))
+e = Triangle((0, 0), (1, 1), (2, 2))
+
+print(*(f"{n}({bool(x)}):{round(abs(x), 3)}"
+        for n, x in zip("abcde", (a, b, c, d, e))))
+print(f"{a < b=}, {d < a=}, {e < d=}")
+print(f"{a in b=}, {b in a=}, {c in a=}, {e in d=}")
+print(f"{a & b=}, {a & c=}, {a & d=}, {e & a=}")
+

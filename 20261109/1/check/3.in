@@ -1,0 +1,11 @@
+a, b, c = Omnibus(), Omnibus(), Omnibus()
+a.i = a.j = 1
+b.i = b.k = 2
+c.j = c.k = 3
+a.i = 100
+print(a.i, a.j, b.i, b.k, c.j, c.k)
+del a.i, c.k
+print(a.j, b.i, b.k, c.j)
+del a.i, c.k
+b.j = c.i = 50
+print(a.j, b.i, b.j, b.k, c.i, c.j)

@@ -1,0 +1,4 @@
+a(True):8.0 b(True):8.0 c(True):8.0 d(True):2.0 e(False):0
+a < b=False, d < a=True, e < d=True
+a in b=True, b in a=True, c in a=False, e in d=True
+a & b=True, a & c=True, a & d=False, e & a=False

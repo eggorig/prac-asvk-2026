@@ -1,0 +1,9 @@
+a, b, c = Omnibus(), Omnibus(), Omnibus()
+a.x = a.y = 10
+b.x = b.z = 20
+c.x = c.y = c.z = 30
+print(a.x, a.y, b.z, c.x)
+del a.x, b.z
+print(b.x, c.x, c.y, c.z)
+a.x = 100
+print(a.x, b.x, c.x)
